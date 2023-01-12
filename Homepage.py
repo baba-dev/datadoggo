@@ -165,7 +165,7 @@ ISO_Code   = str(statDf['ISO_Code'].values[0])
 
 @st.experimental_memo
 def imgpath_gen(CountryCode):
-    imgpath = "media\\flags\\" + CountryCode.lower() + ".png"
+    imgpath = ("./media/flags/%s.png" % (CountryCode.lower()))  
     # Check if the flag image exists
     if os.path.exists(imgpath):
         return imgpath
