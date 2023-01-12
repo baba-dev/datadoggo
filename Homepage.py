@@ -202,7 +202,7 @@ initial_dir = os.getcwd()
 @st.experimental_memo
 def imgLoderfunc(country_name: str) -> str:
     try:
-        px = pixabay.core("####")   # Enter your pixabay API Key Here (by replacing the #) !
+        px = pixabay.core(pxkey)   # Enter your pixabay API Key Here (by replacing the #) !
         # Use the 'query' method to search for images with the given query
         results = px.query(country_name)
         # Check if there are any search results
