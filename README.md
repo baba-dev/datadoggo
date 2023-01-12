@@ -1,4 +1,12 @@
 # DataDoggo - Complete information of our planet Earth, Visualized !
+
+You may save your time and install the prerequisites for the DataDoggo application in a Python Virtual Environment.
+Use the below commands to run a local version of DataDoggo on your system :
+
+pip install virtualenv
+virtualenv datadoggo
+source datadoggo/bin/activate
+pip install -r /datadoggo/requirements.txt
   
 ## Datasets & Last Updated :
                 *   Population Analysis : 2022
